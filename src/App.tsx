@@ -36,7 +36,7 @@ function App() {
   useEffect(() => {
     const fetchCountries = async () => {
       try {
-        const response = await axios.get('/api/countries');
+        const response = await axios.get('https://web-production-69fc2.up.railway.app/api/countries');
         setCountries(response.data.countries);
       } catch (err) {
         console.error('Failed to fetch countries:', err);
@@ -59,7 +59,7 @@ function App() {
     setError(null);
 
     try {
-      const response = await axios.post('/api/predict', form);
+      const response = await axios.post('https://web-production-69fc2.up.railway.app/api/predict', form);
       setPrediction(response.data.prediction);
     } catch (err: any) {
       setError(err.response?.data?.detail || 'Failed to get prediction. Please try again.');
