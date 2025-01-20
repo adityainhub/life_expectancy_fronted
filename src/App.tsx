@@ -146,7 +146,7 @@ function App() {
               </div>
 
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Tuberculosis Treatment</label>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">Tuberculosis Treatment(0-100)</label>
                 <input
                   type="number"
                   name="tuberculosisTreatment"
@@ -160,7 +160,7 @@ function App() {
 
             <div className="space-y-6">
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Hospital Beds</label>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">Hospital Beds(per 1000 people of population)</label>
                 <input
                   type="number"
                   name="hospitalBeds"
@@ -172,7 +172,7 @@ function App() {
               </div>
 
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Urban Population</label>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">Urban Population(in percentage of total population)</label>
                 <input
                   type="number"
                   name="urbanPopulation"
@@ -184,7 +184,7 @@ function App() {
               </div>
 
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Rural Population</label>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">Rural Population(in percentage of total population)</label>
                 <input
                   type="number"
                   name="ruralPopulation"
